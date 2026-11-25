@@ -66,7 +66,7 @@
 
 AI-powered recruiting software built for small businesses. Post jobs, screen candidates with AI, and hire faster — all in one place. Free trial, no credit card. Built for teams that hire 5-50 roles per quarter. Forbes-rated, Capterra-rated, used by 30,000+ companies. Ask any question about your pipeline. AI takes notes, scores candidates, and ranks them automatically.
 
-**Areas:** Recruiting · AI · HRTech · SaaS · Small Business
+**Areas:** Recruiting · Artificial Intelligence · Human Resources · Software-as-a-Service · Small Business
 
 ## 100Hires on APIs.io
 
@@ -99,22 +99,48 @@ Everything profiled for 100Hires is published on APIs.io rather than in this rep
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [100hires-com-mcp.yml](https://apis.io/servers/100hires-com/100hires-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [100Hires Com Agentic Access](https://apis.io/agentic-access/100hires-com/100hires-com-agentic-access/)
+- [100Hires Agentic Access](https://apis.io/agentic-access/100hires-com/100hires-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (56)
 
 The data models the API reads and writes.
 
+- [AccountMessageListResponse](https://apis.io/schemas/100hires-com/100hires-com-account-message-list-response/)
+- [ApiAttachment](https://apis.io/schemas/100hires-com/100hires-com-api-attachment/)
 - [Application](https://apis.io/schemas/100hires-com/100hires-com-application/)
+- [BatchCreateMessagesRequest](https://apis.io/schemas/100hires-com/100hires-com-batch-create-messages-request/)
+- [BillingResponse](https://apis.io/schemas/100hires-com/100hires-com-billing-response/)
 - [Candidate](https://apis.io/schemas/100hires-com/100hires-com-candidate/)
+- [CandidateMessageListResponse](https://apis.io/schemas/100hires-com/100hires-com-candidate-message-list-response/)
 - [CandidateWriteRequest](https://apis.io/schemas/100hires-com/100hires-com-candidate-write-request/)
-- [Job](https://apis.io/schemas/100hires-com/100hires-com-job/)
-- [JobCreateRequest](https://apis.io/schemas/100hires-com/100hires-com-job-create-request/)
-- [JobUpdateRequest](https://apis.io/schemas/100hires-com/100hires-com-job-update-request/)
+- [CareerSiteApplicationRequest](https://apis.io/schemas/100hires-com/100hires-com-career-site-application-request/)
+- [CareerSiteApplicationResponse](https://apis.io/schemas/100hires-com/100hires-com-career-site-application-response/)
+- [CareerSiteJobDetail](https://apis.io/schemas/100hires-com/100hires-com-career-site-job-detail/)
+- [CareerSiteJobListResponse](https://apis.io/schemas/100hires-com/100hires-com-career-site-job-list-response/)
+- [CareerSiteSettings](https://apis.io/schemas/100hires-com/100hires-com-career-site-settings/)
+- [CareerSiteSettingsUpdateRequest](https://apis.io/schemas/100hires-com/100hires-com-career-site-settings-update-request/)
+- [Company](https://apis.io/schemas/100hires-com/100hires-com-company/)
+- [CompanyCreateRequest](https://apis.io/schemas/100hires-com/100hires-com-company-create-request/)
+- [CompanyUpdateRequest](https://apis.io/schemas/100hires-com/100hires-com-company-update-request/)
+- [EducationLevelsResponse](https://apis.io/schemas/100hires-com/100hires-com-education-levels-response/)
+- [EmailTemplate](https://apis.io/schemas/100hires-com/100hires-com-email-template/)
+- [EmailTemplateCreateRequest](https://apis.io/schemas/100hires-com/100hires-com-email-template-create-request/)
+- [EmailTemplateListResponse](https://apis.io/schemas/100hires-com/100hires-com-email-template-list-response/)
+- [EmailTemplateUpdateRequest](https://apis.io/schemas/100hires-com/100hires-com-email-template-update-request/)
+- [EvaluationDetail](https://apis.io/schemas/100hires-com/100hires-com-evaluation-detail/)
+- [EvaluationListResponse](https://apis.io/schemas/100hires-com/100hires-com-evaluation-list-response/)
+- [ExperienceLevelsResponse](https://apis.io/schemas/100hires-com/100hires-com-experience-levels-response/)
+- …and 31 more published on APIs.io
 
 #### JSON-LD (1)
 
@@ -132,20 +158,20 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [100Hires Com Authentication](https://apis.io/security/100hires-com/100hires-com-authentication/)
-- [100Hires Com Domain Security](https://apis.io/security/100hires-com/100hires-com-domain-security/)
+- [100Hires Authentication](https://apis.io/security/100hires-com/100hires-com-authentication/)
+- [100Hires Domain Security](https://apis.io/security/100hires-com/100hires-com-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [100Hires Com Scopes](https://apis.io/scopes/100hires-com/100hires-com-scopes/)
+- [100Hires Scopes](https://apis.io/scopes/100hires-com/100hires-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [100Hires Com Plans Pricing](https://apis.io/plans/100hires-com/100hires-com-plans-pricing/)
+- [100Hires Plans Pricing](https://apis.io/plans/100hires-com/100hires-com-plans-pricing/)
 
 ## Where to find this API
 
@@ -163,28 +189,28 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 59.3** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 51.5** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 63.6 |
-| Contract governance | 79.1 |
-| Operational transparency | 5.3 |
+| Discoverability | 71.7 |
+| Contract quality | 66.6 |
+| Contract governance | 22.0 |
+| Operational transparency | 4.8 |
 | Developer ergonomics | 51.7 |
-| Access clarity | 73.2 |
+| Access clarity | 72.3 |
 
-**Agent readiness 39.0** — agent-ready (gated down from agent-native)
+**Agent readiness 38.9** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
-| Error Semantics | derived (partial credit) |
+| Error Semantics | verified |
 | OpenAPI Examples | verified |
 | Rate Limit Signal | verified |
 | Event Surface Described | — |
@@ -199,8 +225,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 26.4** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 20.9** — Employment & Payroll
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/100hires-com/](https://apis.io/providers/100hires-com/).
 
